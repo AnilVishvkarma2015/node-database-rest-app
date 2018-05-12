@@ -1,0 +1,41 @@
+{
+  "name": "database-app",
+  "version": "",
+  "description": "Node JS Training examples",
+  "main": "lib/server.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "cvishva",
+  "engines": {
+    "node": ">=6.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "mocha-jenkins-reporter": "^0.3.7",
+    "proxyquire": "^1.7.11",
+    "sinon": "^2.1.0",
+    "express": "^4.0",
+    "mysql": "^2.15.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "bower": "^1.8.4",
+    "config": "^1.26.1",
+    "fetch-retry": "^1.1.1",
+    "json-socket": "^0.2.1",
+    "lodash": "^4.17.4",
+    "log4js": "^2.3.3",
+    "log4js-syslog-appender": "^0.3.1",
+    "memory-cache": "^0.2.0",
+    "node-fetch": "^1.7.2",
+    "node-schedule": "^1.2.5",
+    "ocsp": "^1.2.0",
+    "request": "^2.81.0",
+    "retry": "^0.10.1",
+    "uuid": "^3.0.1"
+  }
+}
